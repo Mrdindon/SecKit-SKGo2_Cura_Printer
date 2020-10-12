@@ -8,7 +8,8 @@
         "manufacturer": "SecKit",
 		"file_formats": "text/x-gcode",
         "first_start_actions": ["MachineSettingsAction"],
-		"platform": "",
+		"platform": "SecKit_bed.stl",
+		"platform_offset": [-65, -32, -40],
        "machine_extruder_trains": {
             "0": "seckit_skgo2_extruder"
         },
