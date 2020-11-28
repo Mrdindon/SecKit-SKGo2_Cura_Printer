@@ -1,5 +1,5 @@
 {
-    "name": "SecKit SKGo2 Printer",
+    "name": "SecKit_SKGo2",
     "version": 2,
     "inherits": "fdmprinter",
     "metadata": {
@@ -10,15 +10,16 @@
         "first_start_actions": ["MachineSettingsAction"],
 		"platform": "SecKit_bed.stl",
 		"platform_offset": [-65, -32, -40],
-       "machine_extruder_trains": {
-            "0": "seckit_skgo2_extruder"
+        "first_start_actions": ["MachineSettingsAction"],
+        "machine_extruder_trains": {
+            "0": "SecKit_SKGo2_extruder_0"
         },
 
-        "has_materials": true,
+        "has_materials": false,
         "has_variants": true,
         "has_machine_quality": true,
         "variants_name": "Nozzle Size",
-	    "quality_definition": "creality_base",
+
         "preferred_variant_name": "0.4mm Nozzle",
         "preferred_quality_type": "standard",
         "preferred_material": "generic_pla",
@@ -38,16 +39,6 @@
             "filo3d_pla",
             "filo3d_pla_green",
             "filo3d_pla_red",
-            "generic_bam",
-            "generic_cffcpe",
-            "generic_cffpa",
-            "generic_cpe",
-            "generic_cpe_plus",
-            "generic_gffcpe",
-            "generic_gffpa",
-            "generic_hips",
-            "generic_pp",
-            "generic_pva",
             "imade3d_petg_green",
             "imade3d_petg_pink",
             "imade3d_pla_green",
@@ -130,21 +121,21 @@
         "machine_max_feedrate_z": { "value": 7.5 },
         "machine_max_feedrate_e": { "value": 100 },
 
-        "machine_max_acceleration_x": { "value": 1000 },
-        "machine_max_acceleration_y": { "value": 1000 },
+        "machine_max_acceleration_x": { "value": 2000 },
+        "machine_max_acceleration_y": { "value": 2000 },
         "machine_max_acceleration_z": { "value": 100 },
-        "machine_max_acceleration_e": { "value": 1000 },
+        "machine_max_acceleration_e": { "value": 2000 },
         "machine_acceleration": { "value": 500 },
 
-        "machine_max_jerk_xy": { "value": 20 },
-        "machine_max_jerk_z": { "value": 0.6 },
+        "machine_max_jerk_xy": { "value": 5 },
+        "machine_max_jerk_z": { "value": 0.3 },
         "machine_max_jerk_e": { "value": 5 },
 
         "machine_heated_bed": { "default_value": true },
 
         "material_diameter": { "default_value": 1.75 },
 
-        "acceleration_print": { "value": 500 },
+        "acceleration_print": { "value": 1000 },
         "acceleration_travel": { "value": 1500 },
         "acceleration_travel_layer_0": { "value": "acceleration_travel" },
         "acceleration_roofing": { "enabled": "acceleration_enabled and roofing_layer_count > 0 and top_layers > 0" },

@@ -1,8 +1,8 @@
 heavily copied from the Creality default printer profile
 
-"seckit" folder goes under : C:\Program Files\Ultimaker Cura 4.7\resources\variants (yes this folder accept sub-solders)
-"seckit_quality" folder goes under : C:\Program Files\Ultimaker Cura 4.7\resources\quality (yes this folder accept sub-solders)
-"SecKit_SKGo2.def.json" file goes under : C:\Program Files\Ultimaker Cura 4.7\resources\definitions
-"seckit_skgo2_extruder.def.json" file goes under : C:\Program Files\Ultimaker Cura 4.7\resources\extruders
-"SecKit_bed.stl" file goes under : C:\Program Files\Ultimaker Cura 4.7\resources\meshes
+"seckit" folder goes under : C:\Program Files\Ultimaker Cura 4.X\resources\variants (yes this folder accept sub-folders)
+"seckit_quality" folder goes under : C:\Program Files\Ultimaker Cura 4.X\resources\quality (yes this folder accept sub-folders)
+"SecKit_SKGo2.def.json" file goes under : C:\Program Files\Ultimaker Cura 4.X\resources\definitions
+"seckit_skgo2_extruder.def.json" file goes under : C:\Program Files\Ultimaker Cura 4.X\resources\extruders
+"SecKit_bed.stl" file goes under : C:\Program Files\Ultimaker Cura 4.X\resources\meshes
 
